@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Email me</title>
+  </head>
+  <body>
+    <header>
+      <h1 style="padding-left: 10px">Email Me 📧</h1>
+    </header>
+    <main>
+      <div
+        style="
+          background-color: rgb(178, 238, 244);
+          width: 500px;
+          height: 300px;
+          padding: 20px;
+          margin: 10px;
+          border-radius: 10px;
+        "
+      >
+        <form>
+          <div>
+            <label for="name">Name :</label>
+            <input
+              type="text"
+              name="name"
+              required
+              id="name"
+              placeholder="Molleti Saikumar"
+            />
+            <label for="email">Email :</label>
+            <input
+              type="email"
+              name="email"
+              required
+              id="email"
+              value="email@outlook.com"
+            />
+          </div>
+          <br />
+          <div>
+            <label for="gender">Gender :</label>
+            &nbsp;&nbsp;
+            <label>Male</label>
+            <input type="radio" name="gender" id="gender" />
+            &nbsp;&nbsp;&nbsp;&nbsp;
+            <label>Female</label>
+            <input type="radio" name="gender" />
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <label for="date">Date :</label>
+            <input type="datE" name="date" />
+          </div>
+          <br />
+          <div>
+            <label for="password">Password :</label>
+            <input type="password" name="password" required />
+          </div>
+          <br />
+          <div>
+            <label for="prefered">languages :</label>
+            <select name="languages" id="prefered">
+              <option value="select" selected>Select</option>
+              <option value="HTML">HTML</option>
+              <option value="CSS">CSS</option>
+              <option value="JAVASCRIPT">JAVASCRIPT</option>
+              <option value="BOOTSTRAP">BOOTSTRAP</option>
+            </select>
+          </div>
+          <br />
+          <div>
+            <label for="massage">Massage :</label>
+            <textarea
+              id="textarea"
+              name="massage"
+              cols="45"
+              rows="6"
+            ></textarea>
+          </div>
+          <br />
+          <div>
+            <button
+              id="submit"
+              style="
+                padding: 5px;
+                border: 0px;
+                border-radius: 10px;
+                color: white;
+                background-color: black;
+              "
+            >
+              Submit
+            </button>
+          </div>
+        </form>
+      </div>
+    </main>
+  </body>
+</html>
